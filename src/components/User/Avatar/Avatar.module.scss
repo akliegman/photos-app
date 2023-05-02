@@ -1,0 +1,25 @@
+@import "../../../styles/variables";
+@import "../../../styles/mixins";
+
+.Avatar {
+  @include flex(column, center, center);
+  width: 40px;
+  height: 40px;
+  line-height: 36px;
+  text-align: center;
+  border-radius: 50%;
+  background: $gradient-pewter-to-aqua;
+  color: $color-white;
+  overflow: hidden;
+
+  > * {
+    font-size: $font-size-h3;
+    font-weight: $font-weight-h3;
+    background: $gradient-lavender-to-violet;
+    color: $color-pewter;
+    background-clip: text;
+    text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}

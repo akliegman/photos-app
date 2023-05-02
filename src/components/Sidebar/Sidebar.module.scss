@@ -1,6 +1,21 @@
-@import "../../variables";
+@import "../../styles/variables";
+@import "../../styles/mixins";
 
-.Sidebar {
-  background: $primary-color;
-  width: 200px;
+.Container {
+  background: $color-white;
+  box-shadow: $box-shadow;
+  @include flex(column, flex-start, stretch);
+
+  .Header {
+    flex: 0 0 auto;
+  }
+
+  .AlbumNav {
+    flex: 1 1 auto;
+    overflow-y: scroll;
+  }
+
+  .User {
+    flex: 0 0 auto;
+  }
 }

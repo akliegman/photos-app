@@ -1,0 +1,8 @@
+@import "../../styles/mixins";
+
+.Container {
+  @include container(large);
+  @include flex(column, flex-start, stretch, $spacing-3);
+  flex: 1 1 auto;
+  overflow-y: scroll;
+}

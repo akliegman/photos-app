@@ -1,0 +1,26 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.Container {
+  position: relative;
+
+  .Actions {
+    @include container(small);
+    @include flex(column, flex-start, stretch);
+    gap: $spacing-1;
+  }
+
+  .Nav {
+    @include flex(column, flex-start, stretch);
+    @include container(small);
+    gap: $spacing-1;
+  }
+
+  .NavLink {
+    @include button(nav);
+
+    &.NavLinkActive {
+      @include button(nav-active);
+    }
+  }
+}

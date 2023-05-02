@@ -1,0 +1,14 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.Container {
+  @include container(small);
+
+  .HomeLink {
+    width: 100%;
+  }
+
+  .Logo {
+    max-width: calc(100% - #{$spacing-8});
+  }
+}

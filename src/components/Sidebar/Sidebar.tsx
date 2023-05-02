@@ -1,10 +1,15 @@
 import styles from "./Sidebar.module.scss";
-import * as React from "react";
+import { SidebarProps } from "./Sidebar.interface";
+import { Header } from "../../components/Header/Header";
+import { AlbumNav } from "../../components/AlbumNav/AlbumNav";
+import { User } from "../../components/User/User";
 
-interface Props {
-  children: React.ReactNode;
-}
-
-export const Sidebar: React.FC<Props> = ({ children }) => {
-  return <div className={styles.Sidebar}>{children}</div>;
+export const Sidebar: React.FC<SidebarProps> = () => {
+  return (
+    <div className={styles.Container}>
+      <Header className={styles.Header} />
+      <AlbumNav className={styles.AlbumNav} />
+      <User className={styles.User} />
+    </div>
+  );
 };

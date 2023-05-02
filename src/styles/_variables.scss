@@ -1,0 +1,220 @@
+$color-violet: #594157;
+$color-lavender: #726da8;
+$color-pewter: #7d8cc4;
+$color-aqua: #a0d2db;
+$color-mint: #bee7e8;
+
+$color-white: #ffffff;
+$color-black: #232320;
+$color-gray-1: #f5f5f9;
+$color-gray-2: #ebebf3;
+$color-gray-3: #d6d6e0;
+$color-gray-4: #bfbfcf;
+$color-gray-5: #a8a8be;
+$color-gray-6: #9191a7;
+$color-gray-7: #7a7a91;
+$color-gray-8: #63637b;
+$color-gray-9: #4c4c66;
+$color-gray-10: #36364f;
+
+$gradient-rotation: 120deg;
+
+$gradient-violet-to-lavender: linear-gradient(
+  $gradient-rotation,
+  $color-violet 0%,
+  $color-lavender 100%
+);
+$gradient-violet-to-pewter: linear-gradient(
+  $gradient-rotation,
+  $color-violet 0%,
+  $color-pewter 100%
+);
+$gradient-violet-to-aqua: linear-gradient(
+  $gradient-rotation,
+  $color-violet 0%,
+  $color-aqua 100%
+);
+$gradient-violet-to-mint: linear-gradient(
+  $gradient-rotation,
+  $color-violet 0%,
+  $color-mint 100%
+);
+
+$gradient-lavender-to-violet: linear-gradient(
+  $gradient-rotation,
+  $color-lavender 0%,
+  $color-violet 100%
+);
+$gradient-lavender-to-pewter: linear-gradient(
+  $gradient-rotation,
+  $color-lavender 0%,
+  $color-pewter 100%
+);
+$gradient-lavender-to-aqua: linear-gradient(
+  $gradient-rotation,
+  $color-lavender 0%,
+  $color-aqua 100%
+);
+$gradient-lavender-to-mint: linear-gradient(
+  $gradient-rotation,
+  $color-lavender 0%,
+  $color-mint 100%
+);
+
+$gradient-pewter-to-violet: linear-gradient(
+  $gradient-rotation,
+  $color-pewter 0%,
+  $color-violet 100%
+);
+$gradient-pewter-to-lavender: linear-gradient(
+  $gradient-rotation,
+  $color-pewter 0%,
+  $color-lavender 100%
+);
+$gradient-pewter-to-aqua: linear-gradient(
+  $gradient-rotation,
+  $color-pewter 0%,
+  $color-aqua 100%
+);
+$gradient-pewter-to-mint: linear-gradient(
+  $gradient-rotation,
+  $color-pewter 0%,
+  $color-mint 100%
+);
+
+$gradient-aqua-to-violet: linear-gradient(
+  $gradient-rotation,
+  $color-aqua 0%,
+  $color-violet 100%
+);
+$gradient-aqua-to-lavender: linear-gradient(
+  $gradient-rotation,
+  $color-aqua 0%,
+  $color-lavender 100%
+);
+$gradient-aqua-to-pewter: linear-gradient(
+  $gradient-rotation,
+  $color-aqua 0%,
+  $color-pewter 100%
+);
+$gradient-aqua-to-mint: linear-gradient(
+  $gradient-rotation,
+  $color-aqua 0%,
+  $color-mint 100%
+);
+
+$gradient-mint-to-violet: linear-gradient(
+  $gradient-rotation,
+  $color-mint 0%,
+  $color-violet 100%
+);
+$gradient-mint-to-lavender: linear-gradient(
+  $gradient-rotation,
+  $color-mint 0%,
+  $color-lavender 100%
+);
+$gradient-mint-to-pewter: linear-gradient(
+  $gradient-rotation,
+  $color-mint 0%,
+  $color-pewter 100%
+);
+$gradient-mint-to-aqua: linear-gradient(
+  $gradient-rotation,
+  $color-mint 0%,
+  $color-aqua 100%
+);
+
+$font-family: "Nunito", Arial, sans-serif;
+
+$spacing-1: 6px;
+$spacing-2: 12px;
+$spacing-3: 18px;
+$spacing-4: 24px;
+$spacing-5: 30px;
+$spacing-6: 36px;
+$spacing-7: 42px;
+$spacing-8: 48px;
+
+$font-size-h1: 40px;
+$font-size-h2: 30px;
+$font-size-h3: 24px;
+$font-size-h4: 16px;
+$font-size-h5: 14px;
+$font-size-h6: 12px;
+
+$font-weight-h1: 700;
+$font-weight-h2: 300;
+$font-weight-h3: 700;
+$font-weight-h4: 700;
+$font-weight-h5: 700;
+$font-weight-h6: 700;
+
+$line-height-h1: 1;
+$line-height-h2: 1.2;
+$line-height-h3: 1.2;
+$line-height-h4: 1.5;
+$line-height-h5: 1.5;
+$line-height-h6: 1.5;
+
+$font-size-body: 16px;
+$font-size-small: 14px;
+$font-size-tiny: 12px;
+
+$font-weight-body: 400;
+$font-weight-small: 400;
+$font-weight-tiny: 400;
+
+$line-height-body: 1.5;
+$line-height-small: 1.2;
+$line-height-tiny: 1.2;
+
+$font-size-btn: 16px;
+
+$font-weight-btn: 600;
+
+$line-height-btn: 1.5;
+
+$z-index-default: 100;
+$z-index-dropdown: 200;
+$z-index-modal: 300;
+
+$box-shadow: 0px 0.2px 0.3px -2px rgba(0, 0, 0, 0.013),
+  0px 0.4px 0.6px -2px rgba(0, 0, 0, 0.02),
+  0px 0.7px 1.1px -2px rgba(0, 0, 0, 0.024),
+  0px 1.1px 1.6px -2px rgba(0, 0, 0, 0.028),
+  0px 1.6px 2.4px -2px rgba(0, 0, 0, 0.032),
+  0px 2.4px 3.6px -2px rgba(0, 0, 0, 0.036),
+  0px 3.8px 5.4px -2px rgba(0, 0, 0, 0.04),
+  0px 6.4px 8.5px -2px rgba(0, 0, 0, 0.047),
+  0px 12px 16px -2px rgba(0, 0, 0, 0.06);
+
+$box-shadow-darkened: 0px 0.2px 0.3px -2px rgba(0, 0, 0, 0.02),
+  0px 0.4px 0.6px -2px rgba(0, 0, 0, 0.029),
+  0px 0.7px 1.1px -2px rgba(0, 0, 0, 0.036),
+  0px 1.1px 1.6px -2px rgba(0, 0, 0, 0.042),
+  0px 1.6px 2.4px -2px rgba(0, 0, 0, 0.048),
+  0px 2.4px 3.6px -2px rgba(0, 0, 0, 0.054),
+  0px 3.8px 5.4px -2px rgba(0, 0, 0, 0.061),
+  0px 6.4px 8.5px -2px rgba(0, 0, 0, 0.07),
+  0px 12px 16px -2px rgba(0, 0, 0, 0.09);
+
+$border-radius: 8px;
+
+$transition-duration: 0.25s;
+$transition-timing-function: ease-in-out;
+$transition-delay: 0s;
+
+$transition-all: all $transition-duration $transition-timing-function
+  $transition-delay;
+$transition-background-color: background-color $transition-duration
+  $transition-timing-function $transition-delay;
+$transition-border: border $transition-duration $transition-timing-function
+  $transition-delay;
+$transition-box-shadow: box-shadow $transition-duration
+  $transition-timing-function $transition-delay;
+$transition-color: color $transition-duration $transition-timing-function
+  $transition-delay;
+$transition-transform: transform $transition-duration
+  $transition-timing-function $transition-delay;
+$transition-opacity: opacity $transition-duration $transition-timing-function
+  $transition-delay;

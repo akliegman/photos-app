@@ -1,8 +1,9 @@
 import axios from "axios";
 
-const useAxios = () => {
+export const useAxios = () => {
   const api = axios.create({
-    baseURL: "https://localhost:3000/api",
+    baseURL: `${process.env.REACT_APP_API_HOSTNAME}/api`,
+    withCredentials: true,
     headers: {
       "Content-Type": "application/json",
     },
@@ -10,5 +11,3 @@ const useAxios = () => {
 
   return api;
 };
-
-export default useAxios;

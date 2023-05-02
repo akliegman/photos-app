@@ -1,0 +1,32 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.User {
+  border-top: 1px solid $color-gray-2;
+  @include flex(row, flex-start, center);
+  @include container(small);
+  gap: $spacing-2;
+
+  .Avatar {
+    flex: 0 0 auto;
+  }
+
+  .Details {
+    @include flex(column, flex-start, flex-start);
+    gap: 0;
+    flex: 1 0 auto;
+
+    > * {
+      line-height: 1.2;
+    }
+  }
+
+  .CaretIcon {
+    flex: 0 0 auto;
+    width: 12px;
+
+    path {
+      fill: $color-gray-4;
+    }
+  }
+}

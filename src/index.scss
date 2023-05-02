@@ -1,0 +1,51 @@
+@import "./styles/reset";
+@import "./styles/variables";
+@import "./styles/mixins";
+
+body {
+  font-family: $font-family;
+  font-size: $font-size-body;
+  color: $color-gray-10;
+  background: rgba($color-gray-1, 0.25);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+h1 {
+  @include h1;
+}
+
+h2 {
+  @include h2;
+}
+
+h3 {
+  @include h3;
+}
+
+h4 {
+  @include h4;
+}
+
+h5 {
+  @include h5;
+}
+
+h6 {
+  @include h6;
+}
+
+p {
+  @include paragraph-body;
+}
+
+small {
+  @include paragraph-small;
+}
+
+a {
+  @include link;
+}

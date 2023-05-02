@@ -1,0 +1,11 @@
+@import "../../styles/variables";
+@import "../../styles/mixins";
+
+.Container {
+  width: 100%;
+
+  .Grid {
+    width: 100%;
+    @include container(main);
+  }
+}
